@@ -1,0 +1,53 @@
+/* index.css
+   ----------
+   Small set of global tweaks layered on top of Bootstrap 5.
+*/
+
+body {
+  min-height: 100vh;
+  background-image:
+    url('https://static.vecteezy.com/system/resources/thumbnails/033/259/514/small_2x/thai-food-som-tum-spicy-green-papaya-salad-top-view-ai-generated-photo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+}
+
+.card {
+  transition: transform 0.15s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.table-responsive {
+  background-color: #ffffff;
+}
+
+/* Make sure modal overlay sits above everything else */
+.modal.d-block {
+  z-index: 1050;
+}
+
+
+.nav-link {
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav-link.active {
+  background-color: white;
+  color: #8c9dc9 !important;
+  font-weight: bold;
+}
+
+
